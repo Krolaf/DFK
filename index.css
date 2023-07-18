@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ 
+ a {
+    color: black;
+    font-weight: 800;
+    align-items: center;
+ }
+ 
+ .caroussel {
+    max-width: 600px;
+    height: 200px;
+    margin: 60px auto;
+    /* overflow: hidden; */
+    border: 6px solid #9a1313;
+    background-color: rgb(167, 167, 167);
+ 
+  }
+  
+ .caroussel .slider {
+    height: 100%;
+    animation: caroussel 12s infinite ease-in-out;
+    
+    /* Pour inverser l'animation */
+    display: flex; 
+    /* flex-direction: column-reverse; */
+  }
+ 
+ .promo4 {
+    width: 8.5vw;
+    height: 8.2vh;
+ 
+ }
+ 
+  .caroussel P{
+    flex-shrink: 0;
+    padding: 67px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(135, 4, 34);
+    font-weight: 900;
+  }
+  @keyframes caroussel {
+    0%,
+    20% {
+      transform: translateX(0);
+    }
+    25%,
+    45% {
+      transform: translateX(-100%);
+    }
+    50%,
+    70% {
+      transform: translateX(-200%);
+    }
+    75%,
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }

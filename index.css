@@ -11,13 +11,13 @@
  }
  
  .caroussel {
+    right: 2vw;
     max-width: 600px;
-    height: 200px;
+    height: 55vh;
     margin: 60px auto;
-    /* overflow: hidden; */
-    border: 6px solid #9a1313;
-    background-color: rgb(167, 167, 167);
- 
+    overflow: hidden;
+    background-color: #1F1D1D;
+    border-radius: 40px;
   }
   
  .caroussel .slider {
@@ -30,20 +30,25 @@
   }
  
  .promo4 {
-    width: 8.5vw;
-    height: 8.2vh;
+    width: 70%;
+    height: auto;
+    border-radius: 40px;
  
  }
  
-  .caroussel P{
+  .card{
     flex-shrink: 0;
     padding: 67px 0;
     width: 100%;
     text-align: center;
     font-size: 2vw;
-    color: rgb(135, 4, 34);
+    color: #C1C1C1;
     font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   @keyframes caroussel {
     0%,
     20% {
@@ -64,4 +69,14 @@
     100% {
       transform: translateX(-400%);
     }
+  }
+
+  .commande {
+    background: #C1C1C1;
+    border-radius: 40px;
+    width: fit-content;
+    color: #1F1D1D;
+    padding: 5px;
+    display: flex;
+    text-decoration: none;
   }

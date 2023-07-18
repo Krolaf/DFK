@@ -1,111 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1{
+  color: black;
+  font-size: 2vw;
+}
+h3{
+  color: black;
+  margin-left: 240px;
+  font-size: 1.3vw;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #5EBB7A;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.rectangle{
+  background: #D9D9D9;
+  position: absolute;
+  top: 170px;
+  margin-left: 245px;
+}
 
-  header{
-    background:#1F1D1D ;
-    width: 100vw;
-    height: 15vh;
-    list-style: none;
-  }
- nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right:10% ;
-    height: 100%;
-    
- }
+.info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
- .logo{
-    color: #AFB6A1;
-    font-size: 7vw;
-    transform: translate(-160px);
- }
-
- nav ul li {
-    display: inline-block;
-    padding: 10px 20px;
- }
- nav ul li a{
-    color: #AFB6A1;
-    text-decoration: none;
-    font-size: 6vh;
-    font-weight: bold;
- }
-
-.btn-haut{
-   font-size: 6vh;
-   height: 12vh;
-   margin-bottom: 20px;
-   transform: translate(60px);
-   background: #C1C1C1;
-   color: black;
- }
-
- .btn-bas{
-   font-size: 6vh;
-   height: 6vh;
-   margin-top: 15px;
-   transform: translate(185px);
-   background: #C1C1C1;
-   color: black;
-   text-decoration: none;
- }
-
- footer{
-    background:#1F1D1D ;
-    width: 100vw;
-    height: 5.5rem;
-    color: #C1C1C1;
-    display: flex;
-    font-size: 1.1vw;      
- }
-
- footer i{ 
-    font-size: 20px;
-   text-decoration: none;
-   list-style: none;
-   display: flex;
- }
-
- .collabs {
-   display: flex;
-   flex-direction: column;
-   margin-left: 10px;
-   margin-right: 40px;
-   margin-top: 15px;
- }
-
- .adresse {
-   margin-left: 10px;
-   margin-right: 100px;
-   margin-top: 15px;
- }
-
- .reseaux {
-   display: flex;
-   flex-direction: column;
-   margin-left: 10px;
-   margin-right: 800px;
-   margin-top: 15px;
- }
-
- .reseaux a {
-   color: #C1C1C1;
-   text-decoration: none;
- }
+.content{
+  color: black;
+  font-size: 1.3vw;
+  margin-top: 30px;
+}

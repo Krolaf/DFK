@@ -18,6 +18,7 @@
     overflow: hidden;
     background-color: #1F1D1D;
     border-radius: 40px;
+    
   }
   
  .caroussel .slider {
@@ -79,4 +80,26 @@
     padding: 5px;
     display: flex;
     text-decoration: none;
+  }
+
+  .conteneurParent {
+    display: flex;
+    align-items: center;
+    padding-right: 2vw;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20vw;
+    font-size: 2vw;
+    padding-right: 5vw;
+  }
+
+  .search {
+    border-radius: 40px;
+    padding: 0.6vw;
+    width: 15.3vw;
   }

@@ -17,8 +17,7 @@ body {
   header{
     background:#1F1D1D ;
     width: 100vw;
-    height: 15vh;
-    list-style: none;
+    height: 18vh;
   }
  nav{
     display: flex;
@@ -33,11 +32,13 @@ body {
 
  .logo{
     color: #AFB6A1;
-    font-size: 7vw;
-    transform: translate(-160px);
+    font-size: 8vw;
+    transform: translate(-170px);
+    margin-top: 7px;
  }
 
  nav ul li {
+    list-style: none;
     display: inline-block;
     padding: 10px 20px;
  }
@@ -48,64 +49,67 @@ body {
     font-weight: bold;
  }
 
-.btn-haut{
-   font-size: 6vh;
-   height: 12vh;
-   margin-bottom: 20px;
-   transform: translate(60px);
-   background: #C1C1C1;
-   color: black;
- }
+
 
  .btn-bas{
-   font-size: 6vh;
-   height: 6vh;
-   margin-top: 15px;
-   transform: translate(185px);
-   background: #C1C1C1;
-   color: black;
-   text-decoration: none;
+color: #1F1D1D;
+ }
+
+ .btn-haut{
+    font-size: 6vh;
+    height: 15vh;
+    margin-bottom: 40px;
+    transform: translate(60px);
+    background: #C1C1C1;
+    color: black;
  }
 
  footer{
     background:#1F1D1D ;
     width: 100vw;
     height: 5.5rem;
-    color: #C1C1C1;
-    display: flex;
-    font-size: 1.1vw;      
+    color: #AFB6A1 ;
+  
+   
  }
 
  footer i{ 
     font-size: 20px;
    text-decoration: none;
    list-style: none;
+ }
+
+
+
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .card-block {
    display: flex;
  }
-
- .collabs {
-   display: flex;
-   flex-direction: column;
-   margin-left: 10px;
-   margin-right: 40px;
-   margin-top: 15px;
+ 
+ .card {
+   width: 300px;
+   margin: 10px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background: #403F3F;
  }
-
- .adresse {
-   margin-left: 10px;
-   margin-right: 100px;
-   margin-top: 15px;
+ 
+ .card img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
  }
-
- .reseaux {
-   display: flex;
-   flex-direction: column;
-   margin-left: 10px;
-   margin-right: 800px;
-   margin-top: 15px;
+ 
+ .card h3 {
+   margin-top: 10px;
  }
-
- .reseaux a {
-   color: #C1C1C1;
-   text-decoration: none;
+ 
+ .card p {
+   margin-top: 5px;
  }
+ 

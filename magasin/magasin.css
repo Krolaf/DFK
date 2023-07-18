@@ -2,7 +2,7 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 250px;
+  margin-left: 350px;
 }
 
 .card-block {
@@ -19,6 +19,11 @@
   background: #1F1D1D;
 
   
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  animation: 0.5s;
 }
 
 .card img {
@@ -41,7 +46,7 @@
   width: 100%;
   height: 10px;
   background: #C1C1C1;
-  transform: translateY(65px);
+  transform: translateY(49px);
 }
 
 .menu-2{
@@ -51,6 +56,27 @@
 }
 .menu-2 i{
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
 }
 
+.Prix{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-bottom: 2px;
+  
+}
+
+.Prix span{
+  font-size: 2vh;
+  color: white;
+}
+
+.color-prix{
+  width: 10%;
+  height: 10px;
+  background-color: forestgreen;
+  border-radius: 5px;
+  margin: 5px;
+
+}

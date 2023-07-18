@@ -17,7 +17,8 @@ body {
   header{
     background:#1F1D1D ;
     width: 100vw;
-    height: 18vh;
+    height: 15vh;
+    list-style: none;
   }
  nav{
     display: flex;
@@ -32,13 +33,11 @@ body {
 
  .logo{
     color: #AFB6A1;
-    font-size: 8vw;
-    transform: translate(-170px);
-    margin-top: 7px;
+    font-size: 7vw;
+    transform: translate(-160px);
  }
 
  nav ul li {
-    list-style: none;
     display: inline-block;
     padding: 10px 20px;
  }
@@ -49,32 +48,64 @@ body {
     font-weight: bold;
  }
 
-
-
- .btn-bas{
-
+.btn-haut{
+   font-size: 6vh;
+   height: 12vh;
+   margin-bottom: 20px;
+   transform: translate(60px);
+   background: #C1C1C1;
+   color: black;
  }
 
- .btn-haut{
-    font-size: 6vh;
-    height: 15vh;
-    margin-bottom: 40px;
-    transform: translate(60px);
-    background: #C1C1C1;
-    color: black;
+ .btn-bas{
+   font-size: 6vh;
+   height: 6vh;
+   margin-top: 15px;
+   transform: translate(185px);
+   background: #C1C1C1;
+   color: black;
+   text-decoration: none;
  }
 
  footer{
     background:#1F1D1D ;
     width: 100vw;
     height: 5.5rem;
-    color: #AFB6A1 ;
-  
-   
+    color: #C1C1C1;
+    display: flex;
+    font-size: 1.1vw;      
  }
 
  footer i{ 
     font-size: 20px;
    text-decoration: none;
    list-style: none;
+   display: flex;
+ }
+
+ .collabs {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   margin-right: 40px;
+   margin-top: 15px;
+ }
+
+ .adresse {
+   margin-left: 10px;
+   margin-right: 100px;
+   margin-top: 15px;
+ }
+
+ .reseaux {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   margin-right: 800px;
+   margin-top: 15px;
+ }
+
+ .reseaux a {
+   color: #C1C1C1;
+   text-decoration: none;
  }

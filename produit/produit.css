@@ -22,8 +22,31 @@ h3{
   justify-content: space-around;
 }
 
+.contentPricipal{
+  display: flex;
+  flex-direction: column;
+}
+
 .content{
   color: black;
   font-size: 1.3vw;
   margin-top: 30px;
+  font-weight: bold;
+}
+
+.content1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  color: #F5E7E7;
+  font-size: 1.3vw;
+}
+
+.button{
+  font-size: 4vh;
+  margin-top: 30px;
+  transform: translate(200px);
+  background: #C1C1C1;
+  border-radius: 40px;
+  padding: 1.5vw;
 }

@@ -87,8 +87,6 @@ justify-content: center;
 .page{
   display: flex;
   flex-direction: column;
-
-  height: 100%;
   width: 100vw;
 }
 
@@ -136,9 +134,6 @@ span{
     display: flex;
   }
   
- 
-
-
   .card img {
     width: 100%;
     height: auto;
@@ -153,7 +148,25 @@ span{
     }
   }
 
-
+   @media only screen and (min-width: 801px) and (max-width: 1000px)  {
   
+  .retancle-gris{
+    padding: 0;
+  }
 
+    .card {
+      width: 22vw;
+    }
+    .card-container {
+      margin: 1vw;
+      margin-top: 15vh;
+    }
 
+    .menu-2 i{
+      display: flex;
+      font-size: 2.2vh;
+    
+    
+    }
+
+  }

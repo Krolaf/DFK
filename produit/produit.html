@@ -12,18 +12,28 @@
 <header>
     <nav>
         <h2 class="logo">DFK</h2>
-        <ul>
+        <ul class="menu">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="../magasin/magasin.html">Magasin</a></li>
             <li><a href="../produit/produit.html">Produits</a></li>
         </ul>
         <button type="submit" class="btn-haut">Inscription</button>
     </nav>
+    <img class="menuBurger" src="images/burger.png" alt="un menu burger">
+    
+    <script>
+        const menuBurger = document.querySelector(".menuBurger")
+        const menu = document.querySelector(".menu")
+
+     menuBurger.addEventListener('click',()=>{
+        menu.classList.toggle('mobileMenu')
+        })
+    </script> 
 </header>
 <section>
     <section class="rectangle">
         <h1>ADM Ryzen 5 5500</h1>
-        <h3>6 coeurs, 12 threads, 3.60 GHz, 16 Mo, socket AM4, 65 Watts, version boite avec le ventilateur</h3>
+        <h3>6 coeurs, 12 threads, 3.60 GHz, 16 Mo, socket AM4, 65 Watts, version avec le ventilateur</h3>
     </section>
     
     <section class="info">
@@ -46,9 +56,6 @@
         </div>
     </section>
 </section>
-
-
-
 <footer>
     <div class="reseaux">
     <i class='bx bxl-twitter'><a href="#">Twitter </a></i>

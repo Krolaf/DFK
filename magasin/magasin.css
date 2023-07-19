@@ -2,7 +2,7 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 350px;
+justify-content: center;
 }
 
 .card-block {
@@ -11,9 +11,9 @@
 }
 
 .card {
-  width: 270px;
+  width: 13vw;
   margin: 10px;
-  padding: 20px;
+  padding: 2vw;
   border: 1px solid #1F1D1D;
   border-radius: 40px;
   background: #1F1D1D;
@@ -23,7 +23,7 @@
 .card:hover{
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-  animation: 0.5s;
+  animation: 0.10s;
 }
 
 .card img {
@@ -43,20 +43,23 @@
 }
 
 .retancle-gris{
-  width: 100%;
-  height: 10px;
+  display: flex;
+  width: 100vw;
+  height: 1vh;
+  padding-bottom: 1vh;
+  margin-bottom: 1vh;
   background: #C1C1C1;
-  transform: translateY(49px);
+  transform: translateY(6vh);
 }
 
 .menu-2{
   display: flex;
   justify-content: space-around;
-  
+  margin: 1vw;
 }
 .menu-2 i{
   display: flex;
-  font-size: 25px;
+  font-size: 1vw;
 }
 
 .Prix{
@@ -80,3 +83,77 @@
   margin: 5px;
 
 }
+
+.page{
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100vw;
+}
+
+span{
+  display: none;
+}
+
+
+  @media only screen and (max-width: 800px) {
+    /* iphone SE */
+ 
+
+  .card-container {
+    margin: 10px;
+  }
+
+  .card-block {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 60vw;
+    margin: 10px auto;
+  }
+
+  .retancle-gris {
+    display: none;
+   
+  }
+
+  .menu-2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+  .menu-2 i{
+    display: flex;
+    font-size: 1.2vh;
+    display: none;
+  
+  }
+
+  span{
+    display: flex;
+  }
+  
+ 
+
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+  }
+
+  .Prix p{
+    font-size: 2.8vw;
+  }
+  .card h3 {
+    font-size: 1.2vh;
+    }
+  }
+
+
+  
+
+

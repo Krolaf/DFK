@@ -16,6 +16,7 @@
     overflow: hidden;
     background-color: #1F1D1D;
     border-radius: 40px;
+    max-height: 650px;
   }
 
    .card{
@@ -33,6 +34,7 @@
  .caroussel .slider {
     animation: caroussel 12s infinite ease-in-out;
     height: 38vw;
+    max-height: 650px;
     /* Pour inverser l'animation */
     display: flex; 
     align-items: center;

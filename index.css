@@ -13,14 +13,29 @@
  .caroussel {
     right: 2vw;
     max-width: 600px;
+    max-height: max-content;
     height: 55vh;
+    width: 40vw;
     margin: 60px auto;
     overflow: hidden;
     background-color: #1F1D1D;
     border-radius: 40px;
     
   }
-  
+
+   .card{
+    flex-shrink: 0;
+    padding: 67px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: #C1C1C1;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
  .caroussel .slider {
     height: 100%;
     animation: caroussel 12s infinite ease-in-out;
@@ -37,18 +52,7 @@
  
  }
  
-  .card{
-    flex-shrink: 0;
-    padding: 67px 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2vw;
-    color: #C1C1C1;
-    font-weight: 900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+ 
 
   @keyframes caroussel {
     0%,

@@ -12,14 +12,29 @@
 <header>
     <nav>
         <h2 class="logo">DFK</h2>
-        <ul>
+        <ul class="menu">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="magasin/magasin.html">Magasin</a></li>
             <li><a href="produit/produit.html">Produits</a></li>
         </ul>
         <button type="submit" class="btn-haut">Inscription</button>
+
+        <h2 class="VOUS">VOUS<br>n'etes <br>pas<br>afk</h2>
+
     </nav>
+    
+    <img class="menuBurger" src="images/burger.png" alt="un menu burger">
+    
+    <script>
+        const menuBurger = document.querySelector(".menuBurger")
+        const menu = document.querySelector(".menu")
+
+     menuBurger.addEventListener('click',()=>{
+        menu.classList.toggle('mobileMenu')
+        })
+    </script>
 </header>
+    
 
     <div class="conteneurParent">
         <div class="container1">
@@ -28,7 +43,7 @@
             VOUS n’êtes pas AFK <br><br>
             </p>
             <div>
-                <input class="search" type="search" placeholder="un CPU ? une carte graphique? une tour? ">
+                <input class="search" type="search" placeholder="un CPU ? une carte graphique? une tour?">
                 <span><i class='bx bx-search-alt-2'></i></span>
             </div>
             
@@ -36,11 +51,14 @@
         
         <div class="caroussel">
         <div class="slider">
+
             <div class="card">
                 <img class="promo4" src="images/4.jpg" alt="Image 5">
                 <h3>RTX 2080  -  130$</h3>
                 <p ><a class="commande" href="produit/produit.html">commandez la votre</a></p>
             </div>
+
+
             <div  class="card">
                 <img class="promo4" src="images/4.jpg" alt="Image 5">
                 <h3>RTX 2080  -  130$</h3>
@@ -81,7 +99,7 @@
         <li>Nos transporteur</li>
         <li>Nos banque</li> 
     </ul> 
-    <a class="btn-bas" href="contact/contact.html" type="submit">Conctat</a>
+    <a class="btn-bas" href="contact/contact.html" type="submit">Contact</a>
 </footer>
   
 </body>

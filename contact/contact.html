@@ -12,13 +12,23 @@
 <header>
     <nav>
         <h2 class="logo">DFK</h2>
-        <ul>
+        <ul class="menu">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="../magasin/magasin.html">Magasin</a></li>
             <li><a href="../produit/produit.html">Produits</a></li>
         </ul>
         <button type="submit" class="btn-haut">Inscription</button>
     </nav>
+    <img class="menuBurger" src="images/burger.png" alt="un menu burger">
+    
+    <script>
+        const menuBurger = document.querySelector(".menuBurger")
+        const menu = document.querySelector(".menu")
+
+     menuBurger.addEventListener('click',()=>{
+        menu.classList.toggle('mobileMenu')
+        })
+    </script> 
 </header>
 
 <!--Formulaire -->
@@ -47,7 +57,7 @@
   <section class="droit">
   <p> L'adresse du magasin : <br> <br>123 rue du commerce <br> <br> Reseaux Sociaux : <br><br></p> 
 
-  <div class="reseaux">
+  <div class="social">
     <i class='bx bxl-twitter'><a href="https://twitter.com" target="_blank">Twitter </a></i>
     <i class='bx bxl-instagram-alt' ><a href="https://www.instagram.com" target="_blank">Instagram</a></i>
     <i class='bx bxl-facebook-circle' ><a href="https://www.facebook.com/" target="_blank">Facebook</a></i>

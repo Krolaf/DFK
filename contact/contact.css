@@ -67,7 +67,7 @@ text-transform: uppercase;
 
   }
 
-  .reseaux {
+  .social {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -76,7 +76,7 @@ text-transform: uppercase;
     cursor: pointer;
   }
  
-  .reseaux a {
+  .social a {
     color: #000000;
     text-decoration: none;
     font-size: 25px;
@@ -91,4 +91,61 @@ text-transform: uppercase;
     cursor: pointer;
   }
  
- 
+  @media only screen and (max-width: 800px) {
+    .droit p {
+     display: none;
+        }
+
+   .droit  {
+    display: none;
+            }
+
+ form {
+    max-width: 60vw;
+    min-width: 50vw;
+    margin: 0 auto;
+    background-color: #AFB6A1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #000000;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2vw;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+  }
+
+  textarea {
+    height: 15vw;
+  }
+
+  input[type="submit"] {
+    background-color: #5EBB7A;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1vw;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  }
+

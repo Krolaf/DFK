@@ -12,24 +12,38 @@
 <header>
     <nav>
         <h2 class="logo">DFK</h2>
-        <ul>
+        <ul class="menu">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="../magasin/magasin.html">Magasin</a></li>
             <li><a href="../produit/produit.html">Produits</a></li>
         </ul>
         <button type="submit" class="btn-haut">Inscription</button>
     </nav>
+    <img class="menuBurger" src="images/burger.png" alt="un menu burger">
+    
+    <script>
+        const menuBurger = document.querySelector(".menuBurger")
+        const menu = document.querySelector(".menu")
+
+     menuBurger.addEventListener('click',()=>{
+        menu.classList.toggle('mobileMenu')
+        })
+    </script> 
 </header>
+ <section class="page">
 
 <div class="retancle-gris"></div>
 <div class="menu-2">
-    <i class='bx bx-package'><p>Tout les produit</p></i>
-    <i class='bx bxs-purchase-tag'><p>Top vente</p></i>
-    <i class='bx bxs-offer'><p>Promo</p></i>
-    <i class='bx bx-category-alt'><p>Categorie</p></i>
+    <i class='bx bx-package'>Tout les produit</i>
+    <i class='bx bxs-purchase-tag'>Top vente</i>
+    <i class='bx bxs-offer'>Promo</i>
+    <i class='bx bx-category-alt'>Catégorie</i>
+    <span>&#9868;Catégorie</span>
 </div>
 
 <!--cartte produition -->
+
+
 <div class="card-container">
   <div class="card-block">
     <div class="card">
@@ -37,7 +51,7 @@
       <h3>Ryzen 5</h3>
       <p>5 coeur 15 thread</p>
       <div class="Prix">
-        <span>129.95$</span>
+        <p>129.95$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -47,7 +61,7 @@
       <h3>Trident Z G.SkILL</h3>
       <p>2600 Mhz.</p>
       <div class="Prix">
-        <span>180$</span>
+        <p>180$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -56,7 +70,7 @@
       <img src="../images/3.jpeg" alt="Image 3">
       <h3>Maximus Formula 5</h3>
       <div class="Prix">
-        <span>190$</span>
+        <p>190$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -66,7 +80,7 @@
       <h3>RTX 2080 super</h3>
       <p>8GO.</p>
       <div class="Prix">
-        <span>130$</span>
+        <p>130$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -78,7 +92,7 @@
       <h3>Rizen 5</h3>
       <p>5 coeur 15 thread.</p>
       <div class="Prix">
-        <span>129.95$</span>
+        <p>129.95$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -88,7 +102,7 @@
       <h3>Trident Z G.SkILL</h3>
       <p>2600 Mhz.</p>
       <div class="Prix">
-        <span>130$</span>
+        <p>130$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -98,7 +112,7 @@
       <h3>Maximus Formula 5</h3>
       <p></p>
       <div class="Prix">
-        <span>190$</span>
+        <p>190$</p>
         <div class="color-prix"></div>
       </div>
     </div>
@@ -108,14 +122,14 @@
       <h3>Corsair HX1000I</h3>
       <p>1000 Watt.</p>
       <div class="Prix">
-        <span>110$</span>
+        <p>110$</p>
         <div class="color-prix"></div>
       </div>
     </div>
   </div>
 </div>
 
-
+</section>
 <!--Fin carte -->
 
 <footer>
